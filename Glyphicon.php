@@ -2,6 +2,8 @@
 
 namespace pdima88\twbsHelper;
 
+use Nette\Utils\Html;
+
 class Glyphicon {
     const calendar = '<i class="glyphicon glyphicon-calendar"></i>';
     const edit = '<i class="glyphicon glyphicon-edit"></i>';

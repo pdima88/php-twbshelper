@@ -1,11 +1,16 @@
 <?php
 
 namespace pdima88\twbsHelper;
+
 use Nette\Utils\Html;
 
 class TwbsBtn {
     static function success($html, $classNames) {
         return self::btn($html, 'btn btn-success '.$classNames);
+    }
+
+    static function successXs($html, $classNames) {
+        return self::success($html, 'btn-xs '.$classNames);
     }
 
     static function danger($html, $classNames) {
