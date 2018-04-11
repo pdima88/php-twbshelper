@@ -12,4 +12,8 @@ class Glyphicon {
     const share = '<i class="glyphicon glyphicon-share"></i>';
     const tags = '<i class="glyphicon glyphicon-tags"></i>';
 
+
+    static function icon($name) {
+        return Html::el('i', ['class' => 'glyphicon glyphicon-'.$name]);
+    }
 }
