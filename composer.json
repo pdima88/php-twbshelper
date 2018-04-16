@@ -1,5 +1,5 @@
 {
-    "name": "pdima88/php-twbshelper",
+    "name": "s4y/twbshelper",
     "description": "Twitter Bootstrap Helper for PHP",
     "type": "library",
     "license": "MIT",
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "pdima88\\twbsHelper\\": "/"
+            "s4y\\twbshelper\\": "/"
         }
     } 
 }

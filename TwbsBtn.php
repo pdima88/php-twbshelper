@@ -1,6 +1,6 @@
 <?php
 
-namespace pdima88\twbsHelper;
+namespace s4y\twbshelper;
 
 use Nette\Utils\Html;
 
