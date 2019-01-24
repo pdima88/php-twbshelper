@@ -41,6 +41,10 @@ class TwbsBtn {
         return self::a($html, 'btn btn-success '.$classNames);
     }
 
+    static function a_successXs($html, $classNames = '') {
+        return self::a_success($html, 'btn-xs '.$classNames);
+    }
+
     static function a_danger($html, $classNames = '') {
         return self::a($html, 'btn btn-danger '.$classNames);
     }
